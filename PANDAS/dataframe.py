@@ -3,7 +3,7 @@
 
 # CREATING  DATAFRAMES
 # from dictionary - most common
-import pandas as pd
+"""import pandas as pd
 date= {
     "Name":['Deepanshu','Ankit','Himanshu'],
     "AGE":[18,19,19],
@@ -35,3 +35,13 @@ import numpy as np
 data = np.array([[1,2,3],[4,5,6],[7,8,9]])
 df = pd.DataFrame(data, columns=['Col1','Col2','Col3'])
 print(df)
+
+"""
+import pandas as pd
+
+student_details={"Name":
+                 ['Deepanshu','ankit'],
+                 "Rollno": [21,22],
+                 }
+my_var=pd.DataFrame(student_details)
+print(my_var)
