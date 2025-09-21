@@ -58,6 +58,9 @@ less_percentage=df[df["Percentage"]<80]
 print(less_percentage) # himanshu and gaurav has less than 80 percentage
 
 
+# PASS / FAIL STATUS
+df["Result"] = ["Pass" if x >= 80 else "Fail" for x in df["Total"]]
+
 #DELETE COLUMMN
 df=df.drop("Age",axis=1)
 print(df) # age column is deleted
@@ -65,3 +68,4 @@ print(df) # age column is deleted
 # DELETE ROW
 df=df.drop(4,axis=0) # by giving index number
 print(df) # 4 row deleted
+

@@ -2,9 +2,9 @@
 #PANDAS USES IN Data analysis , data science , machine learning
 
 # way of making series
-#import pandas as pd
-#series = pd.Series([1,2,3,4,5])
-#print(series)
+# import pandas as pd
+# series = pd.Series([1,2,3,4,5])
+# print(series)
 
 # series is a one dimensional ( a data of a single column)
 #CREATE LABELS
