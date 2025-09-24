@@ -9,7 +9,7 @@
 # Car class
 class Car:
     def __init__(self):
-        self.engine = Engine()  # Engine object create किया
+        self.engine = Engine()  # Engine object created
 
     def drive(self):
         print("Car is ready to drive")
@@ -20,7 +20,8 @@ class Car:
 print("=== Creating Car object ===")
 car = Car()
 print("\n=== Calling drive method ===")
-car.drive()  """
+car.drive()"""
+
 """class Battery:
     def __init__(self,capacity):
         self.capacity=capacity
@@ -37,16 +38,18 @@ class Mobile:
 mobile=Mobile("Samsung","Realme")
 mobile.mobile_info()"""
 
-# class Engine:
-#     def __init__(self,horsepower,engine_type):
-#         self.horsepower=horsepower
-#         self.engine_type=engine_type
-# class Car:
-#     def __init__(self,brand,engine):
-#         self.brand=brand
-#         self.engine=Engine()
-#     def car_info(self):
-#         print(f"Brand name :{self.brand} and egine :{self.engine}")
-# c1 = Car("Bmw","gsx")
-# c2=Car("toyota","fede")
-# c1.car_info()
+"""class Engine:
+    def __init__(self,horsepower,engine_type):
+        self.horsepower=horsepower
+        self.engine_type=engine_type
+class Car:
+    def __init__(self,brand,engine):
+        self.brand=brand
+        self.engine=Engine()
+    def car_info(self):
+        print(f"Brand name :{self.brand} and egine :{self.engine}")
+c1 = Car("Bmw","gsx")
+c2=Car("toyota","fede")
+c1.car_info()
+"""
+

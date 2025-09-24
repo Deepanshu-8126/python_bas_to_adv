@@ -89,3 +89,23 @@ _class_("jjdfjhjf",2383,27838293,name="deepasnsjhu",age=18)'''
 # person_info("Rahul", 23, "threee", name = "Deepanshu", age =45,going =
 
 
+"""
+def fact(num):
+    match num:
+        case 1 :
+            return "Monday"
+        case 2:
+            return "Tuesday"
+        case 3:
+            return "Wednesday"
+        case _:
+            return "Invalid Case"
+print(fact(1))"""
+
+def day_of_week(day):
+    match day:
+        case "Saturday" | "Sunday":
+            print("IS Weekend")
+        case "Monday"|"Wednesday":
+            print("Work Day")
+    print(day_of_week("Sunday"))
