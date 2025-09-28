@@ -30,15 +30,10 @@ print(array1*array2)"""
 
 #COMPARSION OPERATOr
 # we can  create boolean arrays , filter data , and use element wise comparison
-"""scores = np.array([91,55,100,77,82,64])
+""""scores = np.array([91,55,100,77,82,64])
 print(scores==100) # retunr booleann values for every element
 print(scores>=60) # return bollean who has score more than 60
 #filter
 scores[scores<60]=0 # assign jiske bhi 60 sey kam hey 0 assign
 print(scores)
-"""
-# marks = np.array([45,65,77,78,98])
-# print(marks==70)
-# print(marks>=70)
-# marks[marks<=70]=1
-# print(marks)
+""""

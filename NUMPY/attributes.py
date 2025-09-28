@@ -49,3 +49,4 @@ print("Dimensions:",arr.ndim)"""
 """import numpy as np
 arr=np.linspace(50,100,5)
 print(arr)"""
+
