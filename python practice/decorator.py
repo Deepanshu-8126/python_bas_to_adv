@@ -64,3 +64,13 @@ checkout(400)    # no discount
 # Decorator: Agar name "Admin" ho, toh greeting me "Welcome Admin!" add karo.
 #
 # Hint: Use ek wrapper function + if condition.
+def  my_decorator(func):
+    def wrapper(*args,**kwargs):
+        print("Start operation")
+        result=func(*args,**kwargs)
+        return result
+    return wrapper
+@my_decorator
+def add(a,b):
+    return a+b
+print(add(4,5))

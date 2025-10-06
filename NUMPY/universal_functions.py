@@ -1,5 +1,5 @@
 # in numpy there are many built in  multidimensions function that apply fast in all element
-from cgi import print_environ_usage
+
 
 import numpy as np
 arr = np.array([1,4,9,16])
