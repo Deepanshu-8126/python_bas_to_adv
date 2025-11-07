@@ -1,23 +1,23 @@
-# x = 100   # global variable
-#
-# def show():
-#     print("Inside function:", x)
-#
-# show()
-# print("Outside function:", x)
+x = 100   # global variable
+
+def show():
+    print("Inside function:", x)
+
+show()
+print("Outside function:", x)
  # Enclosing scope
-# def outer():
-#     x = "outer"
-#
-#     def inner():
-#         print("Inner sees:", x)  # inner ko outer ka variable mil jaata hai
-#
-#     inner()
-#
-# outer()
+def outer():
+    x = "outer"
+
+    def inner():
+        print("Inner sees:", x)  # inner ko outer ka variable mil jaata hai
+
+    inner()
+
+outer()
 
 
-# Non local keyword
+"""# Non local keyword
 def outer():
     x = "old"
 
@@ -29,4 +29,4 @@ def outer():
     print("Outer sees:", x)
 
 
-outer()
+outer()"""

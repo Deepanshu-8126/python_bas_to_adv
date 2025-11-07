@@ -73,3 +73,25 @@ m1.show_manager_details()
 d1= Developer("Vishal","30000","Dart")
 d1.show_developer_details()
 """
+
+"""# Super question
+class Employee:
+    def __init__(self,name,salary):
+        self.salary=salary
+        self.name=name
+    def show_details(self):
+        print(f"Name of the Employee is {self.name} and salary is {self.salary}")
+class Manager(Employee):
+    def __init__(self,name,salary,department):
+        super().__init__(name,salary)
+        self.department=department
+    def show_manager_details(self):
+        super().show_details()
+        print(f"Department is{self.department}")
+
+# Object create
+E1=Manager("Deepanshu",45000,"BCA")
+E2=Manager("Himanshu",56700,"BCA")
+
+E1.show_manager_details()
+E2.show_manager_details()"""

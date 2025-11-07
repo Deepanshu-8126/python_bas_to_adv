@@ -22,6 +22,7 @@ thisdict = {
 print(thisdict)
 print(thisdict["year"]) #1964
 
+#-----------------------------------------------------------
 # dict() constructor # make dicitonary
 thisdict=dict(name="Deepanshu",age=19,rollNo=4)
 print(thisdict)

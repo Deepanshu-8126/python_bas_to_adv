@@ -32,6 +32,7 @@ arr=np.arange(1,26).reshape(5,5)
 filtered_array=arr[(arr%3==0)&(arr%6!=0)]
 print(filtered_array)"""
 
-import numpy as np
+"""import numpy as np
 arr=np.arange(1,26).reshape(5,5)
 print(arr)
+"""

@@ -4,14 +4,15 @@
 # They take mutiple number of arguments but only have one expression
 # variable = lamba parameter : expression
 # namespace clean useful
-
+# return likhne ki jarurat nhi hoti
+#mostly use in temporary function
 # use in high order function
 #map(),sort(),reduce()
 # Single argument
 """double_num=lambda x:x*2
 print(double_num(2)
 """
-
+"""
 # No Argument
 # variable store
 say_hello="Good Morning"
@@ -35,3 +36,15 @@ print(full_name('Deepanshu',"kapri"))
 # even and odd number check
 num= lambda x: "Even " if x%2==0 else "Odd"
 print(num(5)) # odd
+
+
+"""
+# ------- Questions --
+# make an lambda function that return amongest three numbers larger
+num=lambda x,y,z: x if (x>y and x>z) else (y if y > z else z)
+print(num(4,5,6))
+
+# Question 2-- Ek lambda banao jo string ko reverse kare.
+string = lambda x:x[::-1]
+print(string("deepanshu"))
+

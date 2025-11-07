@@ -5,7 +5,6 @@ for i in range(1, n + 1):
     result = result + i
 print(result)
 """
-from operator import is_not
 
 """n=int(input('Enter number'))
 total=0
@@ -28,3 +27,50 @@ while i<=n:
 for i in range(1,n+1 ):
     square=i**2
     print(f" square of {i} is  ",square)"""
+
+# print sum of first 10 natural numbers
+# both for loop and while loop
+"""num=10
+total=0
+for i in range(1,num+1):
+    total+=i
+print(total) # 55
+"""
+"""
+num=10
+total=0
+while num==10:
+    total+=num
+print(total)
+"""
+
+# Print only odd numbers from 1 to 50
+"""for i in range(1,51):
+    if i%2!=0:
+        print(i,end=" ")
+
+# Print only even numbers from 1 to  50
+for i in range(1,51):
+    if i%2==0:
+        print(i,end="")
+"""
+
+# Print table of 5 using loops
+"""num=5
+i=1
+while i<=10:
+  print(f"{num}*{i}={num*i}")
+  i+=1"""
+
+# using for loop
+"""num = int(input("Enter number "))
+for i in range(1,11):
+    print(f"{num}*{i}={num*i}")
+    
+"""
+
+"""n = int(input("Enter number"))
+table=lambda x:list(map(lambda i:f"{x}*{i}={x*i}",range(1,11)))
+print("\n".join(table(n)))"""
+
+

@@ -1,9 +1,9 @@
-# Find largestnumber inn list
+# Find largest number inn list
 """list = [10,20,30,40]
 max = max(list)
 print(max) #builtin function
 print(min)"""
-from numpy.ma.extras import average
+
 
 # Reverse lists
 '''lists = [10,20,30,40]
@@ -179,3 +179,34 @@ for i in numbers:
 
 print("Original value :", numbers)
 print("Duplicate value :", duplicates)'''"""
+
+# Count how many even numbers in a list
+"""list_=[1,2,3,4,5,6,66,8,88]
+count=0
+for i in list_:
+    if i%2==0:
+        count+=1
+print(count)
+
+# filter out
+filter_even=list[list%2==0]
+print(filter_even)"""
+
+"""# find duplicates from a list
+list=[1,2,1,34,4,5,5,6,7,8]
+new_list=[]
+for i in list:
+    if i not in new_list:
+        new_list.append(i)
+print("Original list",list)
+print("New list",new_list)"""
+
+
+# USER INPUT 5 INTGER NUMBERS FIND MINIMUM
+"""l=[]
+for i in range(5):
+    number=int(input("Enter number"))
+    l.append(number)
+print("Minimum number ",min(l))
+"""
+

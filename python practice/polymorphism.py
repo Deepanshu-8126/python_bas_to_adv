@@ -5,7 +5,7 @@
 # Ek hi function call karega, but different class ke objects alag output denge.
 # Polymorphism with Inheritance (Method Overriding)
 # Child class parent ke method ko apne hisaab se override karega.
-"""class Bird():
+"""class Bird:
     def fly(self):
         print("Bird can fly")
 class Penguin(Bird):
@@ -17,7 +17,6 @@ b.fly()
 p=Penguin()
 p.fly()
 """
-
 # Question
 """class Bank_Account():
     def calculate_interst(self):
@@ -232,7 +231,7 @@ transports = [Bus(100), Train(100), Flight(100)]
 for t in transports:
     print(f"{t.__class__.__name__} Fare: {t.calculate_fare()}")"""
 
-# Question --
+"""# Question --
 class Animal():
     def make_sound(self):
         pass
@@ -252,4 +251,4 @@ class Bird(Animal):
 animal=[Dog(),Bird()]
 for a in animal:
     a.make_sound()
-    a.move()
+    a.move()"""

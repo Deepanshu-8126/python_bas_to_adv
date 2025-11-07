@@ -95,7 +95,7 @@ print(my_var.loc[0,1]) # retunr row 1 to 2
 
 
 #------------------------------------------------------------------------------------------
-"""
+
 import pandas as pd
 
 data = {
@@ -109,9 +109,7 @@ print(df)
 # day 1 day 2 day 3 are index 0 1 2
 #refer to the named index:
 print(df.loc["day2"])
-
-"""
-
+print(df.loc["day3"])
 # creating dataframe from csv file
 
 #-------------------Questions----------------------------------------------------------
