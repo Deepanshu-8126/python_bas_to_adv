@@ -7,6 +7,7 @@ for i in string:
         count+=1
 print(count)
 """
+
 """# frequency check 
 string=input("Enter string")
 occ={}
@@ -54,3 +55,4 @@ for i in split_1:
         count+=1
 print(count)
 """
+
