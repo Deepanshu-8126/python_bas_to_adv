@@ -1,4 +1,6 @@
 #----------------------Day 1--------------------------------------
+
+
 # Problem -- Write a Python Program to reverse a string  -- without using [::-1]
 text = "DkDropz"
 reversed_text="" # empty string
