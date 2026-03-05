@@ -9,11 +9,11 @@ print("SHAPE:",arr.shape) # it will give kitne by kitne ki matrix hey rows and c
 print(arr.ndim) # 2 dimension 2d
 #Size --- total elements
 print(arr.size) # 6
-# Data type
-print(arr.dtype) #int64"""
 
+# Data type using (dtype)
+print(arr.dtype) #int64
+"""
 # 4. Different Data Types
-#
 # NumPy arrays ek hi type ke hote hain (lists me mixed types ho sakte hai).
 """import numpy as np
 arr_int = np.array([1,2,3], dtype='int32')

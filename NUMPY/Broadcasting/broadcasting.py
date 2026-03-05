@@ -1,9 +1,10 @@
-# Broadcasting in numpy - ALlow numpy to perfomr operations on array
-# definationn -- when shapes of array are diffrent numpy try to match that is called broadcasting
+# Broadcasting in numpy - ALlow numpy to performs operations on array
+# definationn -- when shapes of array are different numpy try to match that is called broadcasting
 #Rules --
 # dimension compare left to right
 # if not match dimension is  1 it will expand
 # otherwise error
+
 import numpy as np
 """array1= np.array([1,2,3,4])
 array2=np.array([[1],[2],[3],[4]])

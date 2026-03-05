@@ -55,5 +55,3 @@ print(np.ptp(a))  # 9-1 maximum - minimum
 a = np.array([1, 2, 3, 4])
 print(np.cumsum(a)) # running sum
 print(np.cumprod(a)) #running product [1 , 2,6,12]
-
-

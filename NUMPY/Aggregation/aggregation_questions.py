@@ -91,3 +91,5 @@ print(arr)
 print(np.sum(arr,axis=0))
 print(np.mean(arr,axis=1))
 print(np.std(arr,axis=2))"""
+
+

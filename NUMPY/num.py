@@ -16,6 +16,7 @@ arr=np.array([1,2,3,4,5])
 print("PYthon list ",list1)
 print("Numpy Array :", arr)
 """
+import numpy as np
 
 # ➡️ Dono same lagte hai, lekin difference ye hai ki NumPy arrays ke
 # andar mathematical operations directly ho jaate hain.
@@ -43,7 +44,6 @@ print(full) """
 """import numpy as np
 arr=np.arange(1,10,2)
 print(arr)"""
-
 #5-- Evenly spaced numbers -- start to end number ke beech ke numbers step mey utne numbers
 """import numpy as np
 arr1=np.linspace(1,5,6)
@@ -71,3 +71,6 @@ print(f"50 th element is {arr[49]}")
 # reverse the array
 print(arr[::-1]) # negaive indexing step -1 sey peecche jana hey 
 """
+import numpy as np
+a=np.arange(10).reshape(2,5)
+print(a)

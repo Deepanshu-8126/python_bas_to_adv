@@ -91,7 +91,6 @@ series=pd.Series([100,200,300],index=('a','b','c'))
 print(series)
 
 # Question 3: Dictionary to Series
-#
 # Dictionary se ek Series banao:
 fruits = {'apple': 50, 'banana': 30, 'mango': 20}
 my_var=pd.Series(fruits) # fruits pass in series my variable
@@ -101,3 +100,4 @@ print(my_var)
 series=pd.Series(5,index=['x','y','z'])
 print(series)
 """
+

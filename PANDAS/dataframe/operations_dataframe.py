@@ -68,4 +68,3 @@ print(df) # age column is deleted
 # DELETE ROW
 df=df.drop(4,axis=0) # by giving index number
 print(df) # 4 row deleted
-
